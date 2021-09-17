@@ -115,61 +115,48 @@ h4{
 
 main .section-bottom .sb-left{
   width: 20%;
-  height: 570px;
   margin-right: 2%;
   margin: 2% 0 2% 0;
+}
 
+.bg-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.sb-left-picture{
+  width: 100%;
+  min-height: 215px;
+  background-image: url(../img/img-1.jpg);
 }
 
 h3{
   margin-bottom: 10px;
 }
 
-
-.sb-left-pic{
-  max-width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 15px;
-}
-
-
 main .section-bottom .sb-center{
   width: 56%;
-  height: 570px;
   margin-right: 2%;
   margin: 2%;
 }
 
 .sb-center-picture{
   width: 100%;
-  height: 216px;
-  background-color: salmon;
-}
-
-.sb-center-pic{
-  max-height: 100%;
-  max-width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  min-height: 215px;
+  background-image: url(../img/banner-2.jpg);
 }
 
 main .section-bottom .sb-right{
   width: 20%;
-  height: 570px;
-  background-color: #abcfe7;
   margin: 2% 0 2% 0;
-
 }
 
-.sb-right-pic{
-  max-width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 15px;
+.sb-right-picture{
+  width: 100%;
+  min-height: 215px;
+  background-image: url(../img/img-3.jpg);
 }
 
 /* chiusura */
