@@ -1,0 +1,184 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header{
+  min-height: 100px;
+}
+
+.logo{
+  width: 130px;
+}
+
+.border-pic{
+  display: inline-block;
+  height: 55px;
+  margin-left: 10px;
+  border-left: 2px solid #f8f8f8;
+  
+}
+
+ul{
+  margin-top: 10px;
+}
+
+nav ul li { 
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a:hover, a:active{
+  color:#b6b6b6;
+
+}
+nav ul li a{
+  color:#8d8d8d;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* struttura */
+
+header, footer, .section-top, .section-bottom{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* struttura superiore */
+
+.section-top{
+  height: 720px;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.layover{
+  width: 100%;
+  height: 100%;
+  padding-top: 23%;
+  background-color: rgba(0, 0,0, 0.2);
+  border-radius: 15px;
+}
+
+.text-section-top{
+  color: white;
+  width: 50%;
+  margin-left: 70px;
+  background-position: center;
+}
+
+.text-top{
+  font-size: 39px;
+}
+
+/* struttura inferiore */
+
+.section-bottom{
+  height: 700px;
+}
+
+main .section-bottom .sb-top{
+  width: 100%;
+  height: 90px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h4{
+ color: #dadada;
+}
+
+.float{
+  float: left;
+}
+
+main .section-bottom .sb-left{
+  width: 20%;
+  height: 570px;
+  margin-right: 2%;
+  margin: 2% 0 2% 0;
+
+}
+
+h3{
+  margin-bottom: 10px;
+}
+
+
+.sb-left-pic{
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+
+main .section-bottom .sb-center{
+  width: 56%;
+  height: 570px;
+  margin-right: 2%;
+  margin: 2%;
+}
+
+.sb-center-picture{
+  width: 100%;
+  height: 216px;
+  background-color: salmon;
+}
+
+.sb-center-pic{
+  max-height: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .section-bottom .sb-right{
+  width: 20%;
+  height: 570px;
+  background-color: #abcfe7;
+  margin: 2% 0 2% 0;
+
+}
+
+.sb-right-pic{
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+/* chiusura */
+
+footer{
+  height: 80px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+
