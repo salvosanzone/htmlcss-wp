@@ -125,6 +125,13 @@ main .section-bottom .sb-left{
   width: 100%;
   min-height: 215px;
   background-image: url(../img/img-1.jpg);
+  border-radius: 15px;
+}
+
+.layover-sb{
+  min-height: 215px;
+  background-color: rgba(0, 0,0, 0.2);
+  border-radius: 15px;
 }
 
 h3{
