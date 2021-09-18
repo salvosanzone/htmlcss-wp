@@ -20,18 +20,16 @@ header{
 
 .logo{
   width: 130px;
-}
+  height: 50px;
+  background-image: url(../img/logo.png);
+  border-right: 1px solid #dedede;
+  background-repeat: no-repeat;
+  background-size: contain;
 
-.border-pic{
-  display: inline-block;
-  height: 55px;
-  margin-left: 10px;
-  border-left: 2px solid #f8f8f8;
-  
 }
 
 ul{
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 nav ul li { 
@@ -63,10 +61,7 @@ header, footer, .section-top, .section-bottom{
 .section-top{
   height: 720px;
   background-image: url(../img/banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 15px;
+  
 }
 
 .layover{
