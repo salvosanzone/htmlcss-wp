@@ -1,3 +1,4 @@
+/* Global */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +15,7 @@ body{
   clear: both;
 }
 
+/* Header */
 header{
   min-height: 100px;
 }
@@ -25,9 +27,9 @@ header{
   border-right: 1px solid #dedede;
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 
+/* Menu */
 ul{
   margin-top: 25px;
 }
@@ -40,7 +42,6 @@ nav ul li {
 
 a:hover, a:active{
   color:#b6b6b6;
-
 }
 nav ul li a{
   color:#8d8d8d;
@@ -48,7 +49,7 @@ nav ul li a{
   text-transform: uppercase;
 }
 
-/* struttura */
+/* Struttura */
 
 header, footer, .section-top, .section-bottom{
   width: 80%;
@@ -61,7 +62,6 @@ header, footer, .section-top, .section-bottom{
 .section-top{
   height: 720px;
   background-image: url(../img/banner.jpg);
-  
 }
 
 .layover{
@@ -83,7 +83,7 @@ header, footer, .section-top, .section-bottom{
   font-size: 39px;
 }
 
-/* struttura inferiore */
+/* Struttura inferiore */
 
 .section-bottom{
   height: 700px;
@@ -161,7 +161,7 @@ main .section-bottom .sb-right{
   background-image: url(../img/img-3.jpg);
 }
 
-/* chiusura */
+/* Chiusura */
 
 footer{
   height: 80px;
