@@ -64,7 +64,7 @@ header, footer, .section-top, .section-bottom{
   background-image: url(../img/banner.jpg);
 }
 
-.layover{
+.overlay{
   width: 100%;
   height: 100%;
   padding-top: 23%;
@@ -128,7 +128,7 @@ main .section-bottom .sb-left{
   border-radius: 15px;
 }
 
-.layover-sb{
+.overlay-sb{
   min-height: 215px;
   background-color: rgba(0, 0,0, 0.2);
   border-radius: 15px;
@@ -169,5 +169,8 @@ footer{
   text-align: center;
 }
 
-
+.footer-content::after{
+  content: '\2764';
+  color: red;
+}
 
